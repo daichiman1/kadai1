@@ -1,0 +1,311 @@
+@charset "UTF-8";
+body {
+  font-family: 'メイリオ', 'Meiryo', sans-serif;
+  color: #333;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 70px;
+}
+
+/* header
+---------------------------------------*/
+.header {
+  padding-top: 20px;
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.header__title {
+  height: 30px;
+}
+
+.header__menu {
+  margin-top: 20px;
+  background-color: #333;
+}
+
+.header__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__item {
+  margin-right: 60px;
+}
+
+.header__item a {
+  display: inline-block;
+  color: #fff;
+  padding: 10px 0;
+  font-size: 14px;
+}
+
+/* main
+-------------------------------------------*/
+/*  recommend  */
+.recommend-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0 39px;
+  margin-top: 150px;
+}
+
+.recommend-section__item {
+  width: 33%;
+  text-align: center;
+}
+
+.recommend-section__image {
+  width: 100%;
+}
+
+.recommend-section__text {
+  font-size: 16px;
+  line-break: anywhere;
+  font-weight: bold;
+}
+
+.recommend-section__link {
+  font-size: 14px;
+  border-bottom: 1px solid #333;
+  color: #333;
+  margin-top: 15px;
+}
+
+/*  article  */
+.article-section {
+  width: 66%;
+}
+
+.article-section__item {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.article-section__title {
+  text-align: left;
+}
+
+.article-section__subtitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.article-section__subtitle__date {
+  text-align: left;
+}
+
+.article-section__subtitle__category {
+  margin-left: 20px;
+}
+
+.article-section__image {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.article-section__text {
+  font-size: 16px;
+  line-break: anywhere;
+  padding: 0 40px;
+  margin-top: 10px;
+}
+
+.article-section__link {
+  font-size: 14px;
+  border-bottom: 1px solid #333;
+  color: #333;
+  margin-top: 30px;
+}
+
+/*  aside  */
+.aside-section {
+  width: 33%;
+  margin: 20px 0 0 50px;
+  /* aside-section__profile */
+  /* aside-section__ranking */
+  /* aside-section__archive */
+  /* aside-section__archive */
+}
+
+.aside-section__profile {
+  text-align: center;
+}
+
+.aside-section__profile__image {
+  width: 35%;
+  border-radius: 50%;
+}
+
+.aside-section__profile__name {
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.aside-section__profile__text {
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+.aside-section__ranking {
+  margin-top: 60px;
+}
+
+.aside-section__ranking__title {
+  text-align: center;
+  font-size: 18px;
+}
+
+.aside-section__ranking__item {
+  margin-top: 30px;
+}
+
+.aside-section__ranking__item__image {
+  width: 100%;
+}
+
+.aside-section__ranking__item__text {
+  text-align: center;
+  line-break: anywhere;
+}
+
+.aside-section__archive {
+  margin-top: 60px;
+}
+
+.aside-section__archive__title {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.aside-section__archive__item {
+  border-top: 1px solid #333;
+}
+
+.aside-section__archive__item__date {
+  padding: 20px 0 20px 20px;
+  font-size: 14px;
+}
+
+.aside-section__archive__item__group {
+  border-bottom: 1px solid #333;
+}
+
+/* aside */
+/* footer 
+----------------------------------------------------*/
+.footer {
+  background-color: #F7F7F7;
+  height: 510px;
+  width: 100%;
+  margin-top: 140px;
+  /* about */
+  /* menu */
+}
+
+.footer__group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 60px;
+}
+
+.footer__about {
+  width: 33%;
+}
+
+.footer__about__title {
+  font-size: 18px;
+  padding-top: 50px;
+}
+
+.footer__about__text {
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+.footer__about__item {
+  margin-top: 20px;
+}
+
+.footer__about__item__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #333;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.footer__menu {
+  width: 33%;
+}
+
+.footer__menu__title {
+  font-size: 18px;
+  padding-top: 50px;
+}
+
+.footer__menu__group {
+  border-bottom: 1px solid #333;
+  margin-top: 30px;
+}
+
+.footer__menu__item {
+  border-top: 1px solid #333;
+}
+
+.footer__menu__item__button {
+  color: #333;
+  padding: 15px 0 15px 15px;
+  font-size: 14px;
+}
+
+.footer__twitter {
+  width: 33%;
+}
+
+.footer__twitter__title {
+  font-size: 18px;
+  padding-top: 50px;
+}
+
+.footer__twitter__inside {
+  margin-top: 30px;
+  background-color: #fff;
+  height: 315px;
+}
+
+/* footer */
+/*# sourceMappingURL=style.css.map */
